@@ -1,0 +1,10 @@
+/**
+ File contains globally impoted classes
+ File will be imported once at App level.
+*/
+
+@import './color.scss';
+:global {
+    @import './normalize.scss';
+    @import './gridStyle.scss';
+}

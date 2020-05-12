@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorBoundary />  componentDidCatch with null params 1`] = `""`;
+
+exports[`<ErrorBoundary />  componentDidCatch without null params 1`] = `
+<Fragment>
+  <h2>
+    Something went wrong.
+  </h2>
+  <details
+    style={
+      Object {
+        "whiteSpace": "pre-wrap",
+      }
+    }
+  >
+    error
+    <br />
+  </details>
+</Fragment>
+`;
+
+exports[`<ErrorBoundary />  render the component correctly 1`] = `
+<ErrorBoundary
+  angled={false}
+  customClass={Object {}}
+  discreet={true}
+  emphasis=""
+  fullWidth={true}
+  fullwidth="true"
+  leftArrow={false}
+  rightArrow={false}
+  theme="black"
+  variant=""
+/>
+`;

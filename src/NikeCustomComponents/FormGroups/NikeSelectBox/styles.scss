@@ -1,0 +1,103 @@
+@import '../../../constants/variables.scss';
+
+.selectBoxContainer {
+    .formControlContainer {
+        height: 100%;
+        width: 100%;
+        
+        .filterSelectFiledContainer {
+            background-color: transparent;
+            font-size: 13px;
+            height: 100%;
+
+            &::before, &::after {
+                border-bottom: 1px solid $grey2;
+            }
+
+            .searchSelectRoot {
+                margin: 0;
+            }
+
+            .searchSelect {
+                background-color: transparent;
+            }
+
+            .searchSelectIcon {
+                color: black;
+                width: 18px;
+                height: 18px;
+                top: calc(50% - 9px);
+            }
+        }
+
+        .selectFieldContainer {
+            background-color: $grey3;
+            font-size: 13px;
+            height: 100%;
+            width: 120px;
+
+            &::before, &::after {
+                 border: none;
+            }
+
+            &:hover::before {
+                border: none !important;
+            }
+
+            .searchSelectRoot {
+                margin: 8px 0 8px 8px;
+            }
+
+            .searchSelect {
+                background-color: transparent;
+            }
+
+            .searchSelectIcon {
+                color: black;
+                width: 18px;
+                height: 18px;
+                top: calc(50% - 9px);
+            }
+        }
+
+        .errorSelect {
+            .selectFieldContainer {
+                color: red;
+            }
+        }
+    }
+}
+
+.menuPropsPaper {
+    width: 250px;
+    margin-top: 12px;
+    margin-left: -10px;
+    border-radius: 0 !important;
+}
+
+.filterMenuPropsPaper {
+    width: 250px;
+    border-radius: 0 !important;
+}
+
+.menuPropsPaper, .filterMenuPropsPaper {
+    .menuPropsList {
+        padding: 20px 10px;
+
+        .menuItemRoot {
+            font-size: 13px;
+
+            &:hover {
+                background-color: $lightBlue;
+            }
+        }
+
+        .menuItemSelected {
+            background-color: $lightBlue;
+            display:none;
+          }
+          .menuItemDisabled {
+            display: none;
+            }
+     }
+}

@@ -1,0 +1,19 @@
+  @import '../../../constants/color.scss';
+
+  .tableHead {
+    font-size: 14px;
+    line-height: 16px;
+    color: $primaryblack;
+
+    .tableHeadVisuallyHidden {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1;
+      margin: -1;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      top: 20px;
+      width: 1;
+    }
+  }

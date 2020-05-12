@@ -1,0 +1,17 @@
+@import '../../constants/variables.scss';
+
+.homePageContainer {
+    .homePageContent {
+        font-size: 18px;
+
+        .logoImage {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                margin-right: 20px;
+            }
+        }
+    }
+}

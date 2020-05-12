@@ -1,0 +1,136 @@
+@import '../../constants/variables.scss';
+
+
+.tableContainer {    
+    background: $white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 4px #00000029;
+    font-weight: bold;
+    position: relative;
+
+    .tableRoot {
+        width: 100%;
+        letter-spacing: 0;
+        opacity: 1;
+        color: $black;
+    }
+
+    .tablePaper {
+        width: 100%;
+        margin-bottom: 2px;
+    }
+
+    .table {
+        min-width: 1440px;
+        
+        .tableScroll {
+            width: 100%;
+            // overflow: auto;
+        }
+
+        .tableRow {
+            &:nth-of-type(odd) {
+                background-color: $grey4;
+            }
+            
+            .linkButtonClass {
+                color: $blue;
+            }
+        }
+
+        .tableRow,
+        .tableRowContainerSelected.tableRowSelected {
+            &:hover { 
+                background-color: $lightBlue;     
+            }
+        }
+
+        .tableRow {
+            &:nth-of-type(even) {
+                background-color: $white;
+            }        
+        }
+
+        .table button {
+            color: $blue;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .tableBody {
+            min-width: 1750px;
+            overflow: scroll;
+            font-size: 13px;
+        }   
+    }
+
+    .selectedTableTooltip {
+        position: absolute;
+        background-color: $black;
+        height: 56px;
+        color: $grey2;
+        font-size: 13px;
+        padding: 10px 20px;
+        min-width: 1440px;
+        width: 100%;
+        top: 0;
+    
+        button {
+            background: $white;
+            margin-right: 15px;
+        }
+        .exportRows {
+            vertical-align: baseline;
+        }
+        
+        .selectPos {
+            color: $grey2;
+            font-size: 13px;
+
+            span {
+                margin-right: 15px
+            }
+
+            .deselectButton {
+                color: $white;
+                cursor: pointer;
+
+            }
+        }
+        .buttonAlignmnet {
+            text-align: right;
+        }
+        
+        .closeIcon {
+            background: transparent;
+            color: white;
+            vertical-align: inherit;
+        }
+    }
+
+    .removeTooltip {
+        display: none;
+    }
+
+    .headerPagination {
+        font-size: 13px;
+        line-height: 16px;
+        color: $grey1;
+        padding: 20px 21px;
+
+        .labelDisplayRowColor {
+            color: $primaryblack;
+        }
+    }
+
+    .morevert{
+        width:5%;
+
+        button {
+        color: $grey1;
+        }
+    }
+
+    .red {
+        background: red;
+    }
+}

@@ -1,0 +1,100 @@
+@import '../../../constants/color.scss';
+
+.paginationNumber {
+  display: inline-block
+}
+
+.paginationPanel{
+  justify-content: space-between;
+
+  &:last-child {
+    padding: 10px;
+  }
+
+  .tablePaginationSpacer {
+    display: none;
+  }
+  
+  .tablePaginationSelect {
+    width: 1%;
+    padding-left: 1px;
+  }
+
+  .tablePaginationComponent {
+    flex: 0 1 30%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+
+    button:disabled {
+      color: $grey1;
+    }
+  }
+
+  .caption {
+    flex: 0 0 8%;
+    color: $grey1;
+
+    &:nth-child(1) {
+      display: none;
+    }
+  }
+
+  .paginationWrapper {
+    min-width: 32px;
+    padding: 4px 4px;
+    color: $primaryblack;
+    flex-shrink: 0;
+
+    &:not(:last-child) {
+      border-color:black;
+      border-right: 0px solid rgba(0, 0, 0, 0.23);
+      border-radius: 0px;
+      font-weight: normal;
+    }
+  }
+
+  .selected {
+    min-width: 32px;
+    padding: 4px 4px; 
+    color: $white;
+    flex-shrink: 0;  
+    background-color: $grey1;
+
+    &:not(:last-child) {
+      border-color:black;
+      border-right: 0px solid rgba(0, 0, 0, 0.23);
+      border-radius: 0px;
+      font-weight: normal;
+    }   
+  }
+
+  .labelDisplayRowColor {
+    color: $grey1;
+  }
+
+  .paginationLabel{
+    color: $primaryblack;
+  }
+
+  .paginationNextPrevButton {
+    display: inline-block;
+    font-size: 13px;
+    color: $blue;
+  }    
+
+  .disabled{
+    color: $white;
+    background-color: $grey1;
+  }
+
+  .exportButton {
+    flex: 0 0 8%;
+    text-align: center;
+
+    button {
+      background: $black;
+      color: $grey5;
+    }
+  }
+}

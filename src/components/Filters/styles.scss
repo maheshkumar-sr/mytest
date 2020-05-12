@@ -1,0 +1,56 @@
+@import '../../constants/globalStyles.scss';
+
+.dropDrown{
+  padding-bottom: 20px;
+    .poFilter{
+        .rootFilter{
+            width:100px !important ;
+        }
+    }
+  }
+
+.dropDown1{  
+  display: table-cell;
+  padding: 116px;
+  display: "flex";
+  align-self: flex-end !important ;
+  align-self:  baseline !important ;
+}
+.dropDownPadding{
+  padding-bottom: 25px;
+}
+  
+
+.itemDropDown{
+    min-height: 10px !important;
+    // align-self: auto | flex-start | flex-end | center | baseline | stretch;
+    align-self:  baseline !important ;
+}
+
+.filterName{
+    color: $black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.clearAll {
+  color: $blue;
+  font-size: 13px;
+  padding-left: 13px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+ 
+.divider {
+  color: $grey2;
+  font-size: 13px;
+}
+ 
+.showAllFilters {
+  color: $blue;
+  font-size: 13px;
+  padding-right: 13px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+} 

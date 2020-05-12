@@ -1,0 +1,54 @@
+@import '../../../constants/variables.scss';
+
+.formPaperContainer {
+    .poSeachText {
+       color: $primaryblack; 
+       font-weight: bold;
+       margin-bottom: 25px;
+    //    font-family: Helvetica Neue Medium;
+    }
+    .errorOutline{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 502px;
+        height: 50px;
+        border: 1px solid red;
+        box-shadow: none;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+
+    }
+
+    .paperComponent {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 502px;
+        height: 50px;
+        border: 1px solid $grey2;
+        box-shadow: none;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+    }
+    
+    .searchIconButton {
+        padding: 12px;
+        color: $white;
+        background-color: $primaryblack;
+        min-height: 50px;
+        top: -1px;
+        border-radius: 0 4px 4px 0;
+
+        &:hover {
+            background-color: $primaryblack;
+        }
+    }
+
+    .errorDisp {
+        color: $error;
+        font-size: 13px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        padding: 5px;
+    }
+}

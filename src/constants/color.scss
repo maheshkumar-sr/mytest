@@ -1,0 +1,35 @@
+/**
+ File contains color variables and classes
+ Files can be imported directly in styles.scss wherever required.
+*/
+
+$primaryblack: #111111;
+$black: #000000;
+$grey0: #757575;
+$grey1: #8D8D8D;
+$grey2: #CCCCCC;
+$grey3: #E5E5E5;
+$grey4: #F5F5F5;
+$grey5: #FAFAFA;
+$grey6: #484848;
+$white: #FFFFFF;
+$blue: #1D6CCB;
+$lightBlue: #E8F2FF;
+$error: #FE0000;
+$success: #3CA023;
+$accent: #FA5400;
+
+:export {
+    nikePrimaryblack: $primaryblack;
+    nikeBlack: $black;
+    nikeGrey1: $grey1;
+    nikeGrey2: $grey2;
+    nikeGrey3: $grey3;
+    nikeGrey4: $grey4;
+    nikeGrey5: $grey5;
+    nikeWhite: $white;
+    nikeError: $error;
+    nikeSuccess: $success;
+    nikeAccent: $accent;
+  }
+  

@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<POCategoryPage />  handleChangeFactoryCode with null params 1`] = `
+<POCategoryPage
+  PoFilterOnChange={[MockFunction]}
+  checked={true}
+  disabled={true}
+  handleChange={[MockFunction]}
+  id="PO1234"
+  initialSearchedResultSet={
+    Array [
+      Object {
+        "gacDate": "2019-07-14T15:00:00.000Z",
+        "material": "AT5582-901",
+        "ogacDate": "2019-07-14T15:00:00.000Z",
+        "plantCode": 1084,
+        "poCategory": "Accepted",
+        "poNumber": 6754887737,
+        "podcsDate": "2019-07-14T15:00:00.000Z",
+        "season": "Falls(FA)",
+        "shipTo": "NIKE JAPAN GROUP LLC",
+        "totalQuantity": 48,
+        "trackingNo": 6948841345,
+        "unitPrice": 254,
+        "vendorName": "LS",
+      },
+    ]
+  }
+  isBlackFill={true}
+  label="label"
+  labelPlacement="labelPlacement"
+  name="name"
+  onChangeFilters={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Array [
+            Object {
+              "gacDate": "2019-07-14T15:00:00.000Z",
+              "material": "AT5582-901",
+              "ogacDate": "2019-07-14T15:00:00.000Z",
+              "plantCode": 1084,
+              "poCategory": "Accepted",
+              "poNumber": 6754887737,
+              "podcsDate": "2019-07-14T15:00:00.000Z",
+              "season": "Falls(FA)",
+              "shipTo": "NIKE JAPAN GROUP LLC",
+              "totalQuantity": 48,
+              "trackingNo": 6948841345,
+              "unitPrice": 254,
+              "vendorName": "LS",
+            },
+          ],
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  searchedPOCategory="none"
+  searchedResultSet={
+    Array [
+      Object {
+        "key": "podcsDate",
+        "value": "P.O Creation",
+      },
+      Object {
+        "key": "ogacDate",
+        "value": "OGAC Date",
+      },
+      Object {
+        "key": "gacDate",
+        "value": "GAC Date",
+      },
+    ]
+  }
+  subLabel="subLabel"
+  value={1234}
+>
+  <div
+    className="ncss-container dropDown"
+  >
+    <div
+      className="ncss-row dropDownPadding"
+    >
+      <div
+        className="ncss-col-sm-1 itemDropDown"
+      >
+        <p
+          className="filterName"
+        >
+          P.O Category
+        </p>
+        <SelectBox
+          className="rootFilter"
+          filterContainer={true}
+          handleChangeDropDown={[Function]}
+          id="poCategoryListDropDown"
+          isSelectNative={false}
+          searchType="none"
+          selectFieldData={
+            Array [
+              Object {
+                "key": "none",
+                "value": "None",
+              },
+              Object {
+                "key": undefined,
+                "value": undefined,
+              },
+            ]
+          }
+          selectPlaceHolder="All P.Os"
+        >
+          <span>
+            SelectBox
+          </span>
+        </SelectBox>
+      </div>
+      <div
+        className="ncss-col-sm-1 itemDropDown"
+      >
+        <p
+          className="filterName"
+        >
+          Period
+        </p>
+        <SelectBox
+          className="rootFilter"
+          filterContainer={true}
+          handleChangeDropDown={[Function]}
+          id="periodListDropDown"
+          isSelectNative={false}
+          searchType=""
+          selectFieldData={
+            Array [
+              Object {
+                "key": "podcsDate",
+                "value": "P.O Creation",
+              },
+              Object {
+                "key": "ogacDate",
+                "value": "OGAC Date",
+              },
+              Object {
+                "key": "gacDate",
+                "value": "GAC Date",
+              },
+            ]
+          }
+          selectPlaceHolder="All P.Os"
+        >
+          <span>
+            SelectBox
+          </span>
+        </SelectBox>
+      </div>
+      <div
+        className="ncss-col-sm-1 itemDropDown"
+      >
+        <p
+          className="filterName"
+        >
+          From
+        </p>
+        <DatePicker
+          handleDateChange={[Function]}
+          id="selectedFromDate"
+          selectedDate={2020-04-02T08:07:06.618Z}
+        >
+          <span>
+            DatePicker
+          </span>
+        </DatePicker>
+      </div>
+      <div
+        className="ncss-col-sm-1 itemDropDown"
+      >
+        <p
+          className="filterName"
+        >
+          To
+        </p>
+        <DatePicker
+          handleDateChange={[Function]}
+          id="selectedToDate"
+          selectedDate={2020-04-02T08:07:06.618Z}
+        >
+          <span>
+            DatePicker
+          </span>
+        </DatePicker>
+      </div>
+      <div
+        className="ncss-col-sm-1 itemDropDown"
+      >
+        <p
+          className="filterName"
+        >
+          Ship To
+        </p>
+        <SelectBox
+          className="rootFilter"
+          filterContainer={true}
+          handleChangeDropDown={[Function]}
+          id="shipToListDropDown"
+          searchType=""
+          selectFieldData={
+            Array [
+              Object {
+                "key": "none",
+                "value": "None",
+              },
+              Object {
+                "key": undefined,
+                "value": undefined,
+              },
+            ]
+          }
+          selectPlaceHolder="All P.Os"
+        >
+          <span>
+            SelectBox
+          </span>
+        </SelectBox>
+      </div>
+      <div
+        className="ncss-col-sm-1 itemDropDown"
+      >
+        <p
+          className="filterName"
+        >
+          Material
+        </p>
+        <SelectBox
+          className="rootFilter"
+          filterContainer={true}
+          handleChangeDropDown={[Function]}
+          id="materialsDropDown"
+          searchType=""
+          selectFieldData={
+            Array [
+              Object {
+                "key": "none",
+                "value": "None",
+              },
+              Object {
+                "key": undefined,
+                "value": undefined,
+              },
+            ]
+          }
+          selectPlaceHolder="All P.Os"
+        >
+          <span>
+            SelectBox
+          </span>
+        </SelectBox>
+      </div>
+      <div
+        className="ncss-col-sm-1 itemDropDown"
+      >
+        <p
+          className="filterName"
+        >
+          Season
+        </p>
+        <SelectBox
+          className="rootFilter"
+          filterContainer={true}
+          handleChangeDropDown={[Function]}
+          id="seasonListDropDown"
+          searchType=""
+          selectFieldData={
+            Array [
+              Object {
+                "key": "none",
+                "value": "None",
+              },
+              Object {
+                "key": undefined,
+                "value": undefined,
+              },
+            ]
+          }
+          selectPlaceHolder="All P.Os"
+        >
+          <span>
+            SelectBox
+          </span>
+        </SelectBox>
+      </div>
+      <div
+        className="ncss-col-sm-1 itemDropDown"
+      >
+        <p
+          className="filterName"
+        >
+          Factory Code
+        </p>
+        <TextField
+          error={false}
+          helperText={null}
+          id="factorycode"
+          maxLength="4"
+          name="factorycode"
+          onChange={[Function]}
+          type="text"
+          value=""
+        >
+          <span>
+            TextField
+          </span>
+        </TextField>
+      </div>
+    </div>
+  </div>
+  <button
+    className="showAllFilters"
+    id="filterButton"
+    onClick={[Function]}
+    type="button"
+  >
+    Show All Filters
+  </button>
+  <span
+    className="divider"
+  >
+    |
+  </span>
+  <button
+    className="clearAll"
+    id="clearAllFilter"
+    onClick={[Function]}
+    type="button"
+  >
+    Clear all
+  </button>
+</POCategoryPage>
+`;

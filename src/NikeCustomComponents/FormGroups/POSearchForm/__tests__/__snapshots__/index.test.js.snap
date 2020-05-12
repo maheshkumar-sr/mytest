@@ -1,0 +1,1685 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<POSearchInput />  render the <POSearchInput /> component correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <ThemeProvider>
+    <StaticRouter
+      context={Object {}}
+    >
+      <Router
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "createHref": [Function],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        staticContext={Object {}}
+      >
+        <POSearchInput
+          closeDrawer={[MockFunction]}
+          inputPlaceholder="Enter Vendor Name, or 10 digit P.O number"
+          selectFieldData={
+            Array [
+              Object {
+                "key": "ALL",
+                "value": "All P.Os",
+              },
+              Object {
+                "key": "Accepted",
+                "value": "Accepted P.Os",
+              },
+              Object {
+                "key": "UnAccepted",
+                "value": "Unaccepted P.Os",
+              },
+              Object {
+                "key": "UnIssued",
+                "value": "Unissued P.Os",
+              },
+              Object {
+                "key": "PendingChanges",
+                "value": "P.Os Pending Changes",
+              },
+              Object {
+                "key": "PastDueEvents",
+                "value": "Past Due Events",
+              },
+            ]
+          }
+          selectPlaceHolder="P.O Category"
+          submitSearch={[MockFunction]}
+        >
+          <div
+            className="formPaperContainer"
+          >
+            <h3
+              className="poSeachText"
+            >
+              P.O Search
+            </h3>
+            <WithStyles(ForwardRef(Paper))
+              className="paperComponent"
+              component="form"
+              onSubmit={[Function]}
+            >
+              <ForwardRef(Paper)
+                className="paperComponent"
+                classes={
+                  Object {
+                    "elevation0": "MuiPaper-elevation0",
+                    "elevation1": "MuiPaper-elevation1",
+                    "elevation10": "MuiPaper-elevation10",
+                    "elevation11": "MuiPaper-elevation11",
+                    "elevation12": "MuiPaper-elevation12",
+                    "elevation13": "MuiPaper-elevation13",
+                    "elevation14": "MuiPaper-elevation14",
+                    "elevation15": "MuiPaper-elevation15",
+                    "elevation16": "MuiPaper-elevation16",
+                    "elevation17": "MuiPaper-elevation17",
+                    "elevation18": "MuiPaper-elevation18",
+                    "elevation19": "MuiPaper-elevation19",
+                    "elevation2": "MuiPaper-elevation2",
+                    "elevation20": "MuiPaper-elevation20",
+                    "elevation21": "MuiPaper-elevation21",
+                    "elevation22": "MuiPaper-elevation22",
+                    "elevation23": "MuiPaper-elevation23",
+                    "elevation24": "MuiPaper-elevation24",
+                    "elevation3": "MuiPaper-elevation3",
+                    "elevation4": "MuiPaper-elevation4",
+                    "elevation5": "MuiPaper-elevation5",
+                    "elevation6": "MuiPaper-elevation6",
+                    "elevation7": "MuiPaper-elevation7",
+                    "elevation8": "MuiPaper-elevation8",
+                    "elevation9": "MuiPaper-elevation9",
+                    "outlined": "MuiPaper-outlined",
+                    "root": "MuiPaper-root",
+                    "rounded": "MuiPaper-rounded",
+                  }
+                }
+                component="form"
+                onSubmit={[Function]}
+              >
+                <form
+                  className="MuiPaper-root paperComponent MuiPaper-elevation1 MuiPaper-rounded"
+                  onSubmit={[Function]}
+                >
+                  <PoSearchMenuItems
+                    closeDrawer={[MockFunction]}
+                    handleChangeDropDown={[Function]}
+                    inputPlaceholder="Enter Vendor Name, or 10 digit P.O number"
+                    isSelectNative={false}
+                    searchType="0"
+                    selectError={false}
+                    selectFieldData={
+                      Array [
+                        Object {
+                          "key": "ALL",
+                          "value": "All P.Os",
+                        },
+                        Object {
+                          "key": "Accepted",
+                          "value": "Accepted P.Os",
+                        },
+                        Object {
+                          "key": "UnAccepted",
+                          "value": "Unaccepted P.Os",
+                        },
+                        Object {
+                          "key": "UnIssued",
+                          "value": "Unissued P.Os",
+                        },
+                        Object {
+                          "key": "PendingChanges",
+                          "value": "P.Os Pending Changes",
+                        },
+                        Object {
+                          "key": "PastDueEvents",
+                          "value": "Past Due Events",
+                        },
+                      ]
+                    }
+                    selectPlaceHolder="P.O Category"
+                    submitSearch={[MockFunction]}
+                  >
+                    <div
+                      className="selectBoxContainer"
+                    >
+                      <WithStyles(ForwardRef(FormControl))
+                        className="formControlContainer"
+                        classes={
+                          Object {
+                            "root": "",
+                          }
+                        }
+                        error={false}
+                      >
+                        <ForwardRef(FormControl)
+                          className="formControlContainer"
+                          classes={
+                            Object {
+                              "fullWidth": "MuiFormControl-fullWidth",
+                              "marginDense": "MuiFormControl-marginDense",
+                              "marginNormal": "MuiFormControl-marginNormal",
+                              "root": "MuiFormControl-root",
+                            }
+                          }
+                          error={false}
+                        >
+                          <div
+                            className="MuiFormControl-root formControlContainer"
+                          >
+                            <WithStyles(ForwardRef(Select))
+                              MenuProps={
+                                Object {
+                                  "anchorOrigin": Object {
+                                    "horizontal": "left",
+                                    "vertical": "bottom",
+                                  },
+                                  "classes": Object {
+                                    "list": "menuPropsList",
+                                    "paper": "menuPropsPaper",
+                                  },
+                                  "getContentAnchorEl": null,
+                                  "transformOrigin": Object {
+                                    "horizontal": "left",
+                                    "vertical": "top",
+                                  },
+                                }
+                              }
+                              className="selectFieldContainer"
+                              classes={
+                                Object {
+                                  "icon": "searchSelectIcon",
+                                  "root": "searchSelectRoot",
+                                  "select": "searchSelect",
+                                }
+                              }
+                              id="search-select-filled"
+                              labelId="search-select-filled-label"
+                              native={false}
+                              onChange={[Function]}
+                              value="0"
+                            >
+                              <ForwardRef(Select)
+                                MenuProps={
+                                  Object {
+                                    "anchorOrigin": Object {
+                                      "horizontal": "left",
+                                      "vertical": "bottom",
+                                    },
+                                    "classes": Object {
+                                      "list": "menuPropsList",
+                                      "paper": "menuPropsPaper",
+                                    },
+                                    "getContentAnchorEl": null,
+                                    "transformOrigin": Object {
+                                      "horizontal": "left",
+                                      "vertical": "top",
+                                    },
+                                  }
+                                }
+                                className="selectFieldContainer"
+                                classes={
+                                  Object {
+                                    "disabled": "Mui-disabled",
+                                    "filled": "MuiSelect-filled",
+                                    "icon": "MuiSelect-icon searchSelectIcon",
+                                    "iconFilled": "MuiSelect-iconFilled",
+                                    "iconOpen": "MuiSelect-iconOpen",
+                                    "iconOutlined": "MuiSelect-iconOutlined",
+                                    "outlined": "MuiSelect-outlined",
+                                    "root": "MuiSelect-root searchSelectRoot",
+                                    "select": "MuiSelect-select searchSelect",
+                                    "selectMenu": "MuiSelect-selectMenu",
+                                  }
+                                }
+                                id="search-select-filled"
+                                labelId="search-select-filled-label"
+                                native={false}
+                                onChange={[Function]}
+                                value="0"
+                              >
+                                <WithStyles(ForwardRef(Input))
+                                  className="selectFieldContainer"
+                                  inputComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "propTypes": Object {
+                                        "IconComponent": [Function],
+                                        "MenuProps": [Function],
+                                        "SelectDisplayProps": [Function],
+                                        "autoFocus": [Function],
+                                        "autoWidth": [Function],
+                                        "children": [Function],
+                                        "className": [Function],
+                                        "classes": [Function],
+                                        "defaultValue": [Function],
+                                        "disabled": [Function],
+                                        "displayEmpty": [Function],
+                                        "inputRef": [Function],
+                                        "labelId": [Function],
+                                        "multiple": [Function],
+                                        "name": [Function],
+                                        "onBlur": [Function],
+                                        "onChange": [Function],
+                                        "onClose": [Function],
+                                        "onFocus": [Function],
+                                        "onOpen": [Function],
+                                        "open": [Function],
+                                        "readOnly": [Function],
+                                        "renderValue": [Function],
+                                        "required": [Function],
+                                        "tabIndex": [Function],
+                                        "type": [Function],
+                                        "value": [Function],
+                                        "variant": [Function],
+                                      },
+                                      "render": [Function],
+                                    }
+                                  }
+                                  inputProps={
+                                    Object {
+                                      "IconComponent": Object {
+                                        "$$typeof": Symbol(react.memo),
+                                        "compare": null,
+                                        "displayName": "ArrowDropDownIcon",
+                                        "muiName": "SvgIcon",
+                                        "type": Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "render": [Function],
+                                        },
+                                      },
+                                      "MenuProps": Object {
+                                        "anchorOrigin": Object {
+                                          "horizontal": "left",
+                                          "vertical": "bottom",
+                                        },
+                                        "classes": Object {
+                                          "list": "menuPropsList",
+                                          "paper": "menuPropsPaper",
+                                        },
+                                        "getContentAnchorEl": null,
+                                        "transformOrigin": Object {
+                                          "horizontal": "left",
+                                          "vertical": "top",
+                                        },
+                                      },
+                                      "SelectDisplayProps": Object {
+                                        "id": "search-select-filled",
+                                      },
+                                      "autoWidth": false,
+                                      "children": Array [
+                                        <WithStyles(ForwardRef(MenuItem))
+                                          classes={
+                                            Object {
+                                              "root": "menuItemRoot",
+                                              "selected": "menuItemSelected",
+                                            }
+                                          }
+                                          disabled={true}
+                                          value="0"
+                                        >
+                                          <p
+                                            className="menuItemDisabled"
+                                          >
+                                            P.O Category
+                                          </p>
+                                        </WithStyles(ForwardRef(MenuItem))>,
+                                        false,
+                                        Array [
+                                          <WithStyles(ForwardRef(MenuItem))
+                                            classes={
+                                              Object {
+                                                "root": "menuItemRoot",
+                                                "selected": "menuItemSelected",
+                                              }
+                                            }
+                                            value="ALL"
+                                          >
+                                            All P.Os
+                                          </WithStyles(ForwardRef(MenuItem))>,
+                                          <WithStyles(ForwardRef(MenuItem))
+                                            classes={
+                                              Object {
+                                                "root": "menuItemRoot",
+                                                "selected": "menuItemSelected",
+                                              }
+                                            }
+                                            value="Accepted"
+                                          >
+                                            Accepted P.Os
+                                          </WithStyles(ForwardRef(MenuItem))>,
+                                          <WithStyles(ForwardRef(MenuItem))
+                                            classes={
+                                              Object {
+                                                "root": "menuItemRoot",
+                                                "selected": "menuItemSelected",
+                                              }
+                                            }
+                                            value="UnAccepted"
+                                          >
+                                            Unaccepted P.Os
+                                          </WithStyles(ForwardRef(MenuItem))>,
+                                          <WithStyles(ForwardRef(MenuItem))
+                                            classes={
+                                              Object {
+                                                "root": "menuItemRoot",
+                                                "selected": "menuItemSelected",
+                                              }
+                                            }
+                                            value="UnIssued"
+                                          >
+                                            Unissued P.Os
+                                          </WithStyles(ForwardRef(MenuItem))>,
+                                          <WithStyles(ForwardRef(MenuItem))
+                                            classes={
+                                              Object {
+                                                "root": "menuItemRoot",
+                                                "selected": "menuItemSelected",
+                                              }
+                                            }
+                                            value="PendingChanges"
+                                          >
+                                            P.Os Pending Changes
+                                          </WithStyles(ForwardRef(MenuItem))>,
+                                          <WithStyles(ForwardRef(MenuItem))
+                                            classes={
+                                              Object {
+                                                "root": "menuItemRoot",
+                                                "selected": "menuItemSelected",
+                                              }
+                                            }
+                                            value="PastDueEvents"
+                                          >
+                                            Past Due Events
+                                          </WithStyles(ForwardRef(MenuItem))>,
+                                        ],
+                                      ],
+                                      "classes": Object {
+                                        "disabled": "Mui-disabled",
+                                        "filled": "MuiSelect-filled",
+                                        "icon": "MuiSelect-icon searchSelectIcon",
+                                        "iconFilled": "MuiSelect-iconFilled",
+                                        "iconOpen": "MuiSelect-iconOpen",
+                                        "iconOutlined": "MuiSelect-iconOutlined",
+                                        "outlined": "MuiSelect-outlined",
+                                        "root": "MuiSelect-root searchSelectRoot",
+                                        "select": "MuiSelect-select searchSelect",
+                                        "selectMenu": "MuiSelect-selectMenu",
+                                      },
+                                      "displayEmpty": false,
+                                      "labelId": "search-select-filled-label",
+                                      "multiple": false,
+                                      "onClose": undefined,
+                                      "onOpen": undefined,
+                                      "open": undefined,
+                                      "renderValue": undefined,
+                                      "type": undefined,
+                                      "variant": "standard",
+                                    }
+                                  }
+                                  onChange={[Function]}
+                                  value="0"
+                                >
+                                  <ForwardRef(Input)
+                                    className="selectFieldContainer"
+                                    classes={
+                                      Object {
+                                        "colorSecondary": "MuiInput-colorSecondary",
+                                        "disabled": "Mui-disabled",
+                                        "error": "Mui-error",
+                                        "focused": "Mui-focused",
+                                        "formControl": "MuiInput-formControl",
+                                        "fullWidth": "MuiInput-fullWidth",
+                                        "input": "MuiInput-input",
+                                        "inputMarginDense": "MuiInput-inputMarginDense",
+                                        "inputMultiline": "MuiInput-inputMultiline",
+                                        "inputTypeSearch": "MuiInput-inputTypeSearch",
+                                        "marginDense": "MuiInput-marginDense",
+                                        "multiline": "MuiInput-multiline",
+                                        "root": "MuiInput-root",
+                                        "underline": "MuiInput-underline",
+                                      }
+                                    }
+                                    inputComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "propTypes": Object {
+                                          "IconComponent": [Function],
+                                          "MenuProps": [Function],
+                                          "SelectDisplayProps": [Function],
+                                          "autoFocus": [Function],
+                                          "autoWidth": [Function],
+                                          "children": [Function],
+                                          "className": [Function],
+                                          "classes": [Function],
+                                          "defaultValue": [Function],
+                                          "disabled": [Function],
+                                          "displayEmpty": [Function],
+                                          "inputRef": [Function],
+                                          "labelId": [Function],
+                                          "multiple": [Function],
+                                          "name": [Function],
+                                          "onBlur": [Function],
+                                          "onChange": [Function],
+                                          "onClose": [Function],
+                                          "onFocus": [Function],
+                                          "onOpen": [Function],
+                                          "open": [Function],
+                                          "readOnly": [Function],
+                                          "renderValue": [Function],
+                                          "required": [Function],
+                                          "tabIndex": [Function],
+                                          "type": [Function],
+                                          "value": [Function],
+                                          "variant": [Function],
+                                        },
+                                        "render": [Function],
+                                      }
+                                    }
+                                    inputProps={
+                                      Object {
+                                        "IconComponent": Object {
+                                          "$$typeof": Symbol(react.memo),
+                                          "compare": null,
+                                          "displayName": "ArrowDropDownIcon",
+                                          "muiName": "SvgIcon",
+                                          "type": Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "render": [Function],
+                                          },
+                                        },
+                                        "MenuProps": Object {
+                                          "anchorOrigin": Object {
+                                            "horizontal": "left",
+                                            "vertical": "bottom",
+                                          },
+                                          "classes": Object {
+                                            "list": "menuPropsList",
+                                            "paper": "menuPropsPaper",
+                                          },
+                                          "getContentAnchorEl": null,
+                                          "transformOrigin": Object {
+                                            "horizontal": "left",
+                                            "vertical": "top",
+                                          },
+                                        },
+                                        "SelectDisplayProps": Object {
+                                          "id": "search-select-filled",
+                                        },
+                                        "autoWidth": false,
+                                        "children": Array [
+                                          <WithStyles(ForwardRef(MenuItem))
+                                            classes={
+                                              Object {
+                                                "root": "menuItemRoot",
+                                                "selected": "menuItemSelected",
+                                              }
+                                            }
+                                            disabled={true}
+                                            value="0"
+                                          >
+                                            <p
+                                              className="menuItemDisabled"
+                                            >
+                                              P.O Category
+                                            </p>
+                                          </WithStyles(ForwardRef(MenuItem))>,
+                                          false,
+                                          Array [
+                                            <WithStyles(ForwardRef(MenuItem))
+                                              classes={
+                                                Object {
+                                                  "root": "menuItemRoot",
+                                                  "selected": "menuItemSelected",
+                                                }
+                                              }
+                                              value="ALL"
+                                            >
+                                              All P.Os
+                                            </WithStyles(ForwardRef(MenuItem))>,
+                                            <WithStyles(ForwardRef(MenuItem))
+                                              classes={
+                                                Object {
+                                                  "root": "menuItemRoot",
+                                                  "selected": "menuItemSelected",
+                                                }
+                                              }
+                                              value="Accepted"
+                                            >
+                                              Accepted P.Os
+                                            </WithStyles(ForwardRef(MenuItem))>,
+                                            <WithStyles(ForwardRef(MenuItem))
+                                              classes={
+                                                Object {
+                                                  "root": "menuItemRoot",
+                                                  "selected": "menuItemSelected",
+                                                }
+                                              }
+                                              value="UnAccepted"
+                                            >
+                                              Unaccepted P.Os
+                                            </WithStyles(ForwardRef(MenuItem))>,
+                                            <WithStyles(ForwardRef(MenuItem))
+                                              classes={
+                                                Object {
+                                                  "root": "menuItemRoot",
+                                                  "selected": "menuItemSelected",
+                                                }
+                                              }
+                                              value="UnIssued"
+                                            >
+                                              Unissued P.Os
+                                            </WithStyles(ForwardRef(MenuItem))>,
+                                            <WithStyles(ForwardRef(MenuItem))
+                                              classes={
+                                                Object {
+                                                  "root": "menuItemRoot",
+                                                  "selected": "menuItemSelected",
+                                                }
+                                              }
+                                              value="PendingChanges"
+                                            >
+                                              P.Os Pending Changes
+                                            </WithStyles(ForwardRef(MenuItem))>,
+                                            <WithStyles(ForwardRef(MenuItem))
+                                              classes={
+                                                Object {
+                                                  "root": "menuItemRoot",
+                                                  "selected": "menuItemSelected",
+                                                }
+                                              }
+                                              value="PastDueEvents"
+                                            >
+                                              Past Due Events
+                                            </WithStyles(ForwardRef(MenuItem))>,
+                                          ],
+                                        ],
+                                        "classes": Object {
+                                          "disabled": "Mui-disabled",
+                                          "filled": "MuiSelect-filled",
+                                          "icon": "MuiSelect-icon searchSelectIcon",
+                                          "iconFilled": "MuiSelect-iconFilled",
+                                          "iconOpen": "MuiSelect-iconOpen",
+                                          "iconOutlined": "MuiSelect-iconOutlined",
+                                          "outlined": "MuiSelect-outlined",
+                                          "root": "MuiSelect-root searchSelectRoot",
+                                          "select": "MuiSelect-select searchSelect",
+                                          "selectMenu": "MuiSelect-selectMenu",
+                                        },
+                                        "displayEmpty": false,
+                                        "labelId": "search-select-filled-label",
+                                        "multiple": false,
+                                        "onClose": undefined,
+                                        "onOpen": undefined,
+                                        "open": undefined,
+                                        "renderValue": undefined,
+                                        "type": undefined,
+                                        "variant": "standard",
+                                      }
+                                    }
+                                    onChange={[Function]}
+                                    value="0"
+                                  >
+                                    <WithStyles(ForwardRef(InputBase))
+                                      className="selectFieldContainer"
+                                      classes={
+                                        Object {
+                                          "colorSecondary": "MuiInput-colorSecondary",
+                                          "disabled": "Mui-disabled",
+                                          "error": "Mui-error",
+                                          "focused": "Mui-focused",
+                                          "formControl": "MuiInput-formControl",
+                                          "fullWidth": "MuiInput-fullWidth",
+                                          "input": "MuiInput-input",
+                                          "inputMarginDense": "MuiInput-inputMarginDense",
+                                          "inputMultiline": "MuiInput-inputMultiline",
+                                          "inputTypeSearch": "MuiInput-inputTypeSearch",
+                                          "marginDense": "MuiInput-marginDense",
+                                          "multiline": "MuiInput-multiline",
+                                          "root": "MuiInput-root MuiInput-underline",
+                                          "underline": null,
+                                        }
+                                      }
+                                      fullWidth={false}
+                                      inputComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "propTypes": Object {
+                                            "IconComponent": [Function],
+                                            "MenuProps": [Function],
+                                            "SelectDisplayProps": [Function],
+                                            "autoFocus": [Function],
+                                            "autoWidth": [Function],
+                                            "children": [Function],
+                                            "className": [Function],
+                                            "classes": [Function],
+                                            "defaultValue": [Function],
+                                            "disabled": [Function],
+                                            "displayEmpty": [Function],
+                                            "inputRef": [Function],
+                                            "labelId": [Function],
+                                            "multiple": [Function],
+                                            "name": [Function],
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onClose": [Function],
+                                            "onFocus": [Function],
+                                            "onOpen": [Function],
+                                            "open": [Function],
+                                            "readOnly": [Function],
+                                            "renderValue": [Function],
+                                            "required": [Function],
+                                            "tabIndex": [Function],
+                                            "type": [Function],
+                                            "value": [Function],
+                                            "variant": [Function],
+                                          },
+                                          "render": [Function],
+                                        }
+                                      }
+                                      inputProps={
+                                        Object {
+                                          "IconComponent": Object {
+                                            "$$typeof": Symbol(react.memo),
+                                            "compare": null,
+                                            "displayName": "ArrowDropDownIcon",
+                                            "muiName": "SvgIcon",
+                                            "type": Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "render": [Function],
+                                            },
+                                          },
+                                          "MenuProps": Object {
+                                            "anchorOrigin": Object {
+                                              "horizontal": "left",
+                                              "vertical": "bottom",
+                                            },
+                                            "classes": Object {
+                                              "list": "menuPropsList",
+                                              "paper": "menuPropsPaper",
+                                            },
+                                            "getContentAnchorEl": null,
+                                            "transformOrigin": Object {
+                                              "horizontal": "left",
+                                              "vertical": "top",
+                                            },
+                                          },
+                                          "SelectDisplayProps": Object {
+                                            "id": "search-select-filled",
+                                          },
+                                          "autoWidth": false,
+                                          "children": Array [
+                                            <WithStyles(ForwardRef(MenuItem))
+                                              classes={
+                                                Object {
+                                                  "root": "menuItemRoot",
+                                                  "selected": "menuItemSelected",
+                                                }
+                                              }
+                                              disabled={true}
+                                              value="0"
+                                            >
+                                              <p
+                                                className="menuItemDisabled"
+                                              >
+                                                P.O Category
+                                              </p>
+                                            </WithStyles(ForwardRef(MenuItem))>,
+                                            false,
+                                            Array [
+                                              <WithStyles(ForwardRef(MenuItem))
+                                                classes={
+                                                  Object {
+                                                    "root": "menuItemRoot",
+                                                    "selected": "menuItemSelected",
+                                                  }
+                                                }
+                                                value="ALL"
+                                              >
+                                                All P.Os
+                                              </WithStyles(ForwardRef(MenuItem))>,
+                                              <WithStyles(ForwardRef(MenuItem))
+                                                classes={
+                                                  Object {
+                                                    "root": "menuItemRoot",
+                                                    "selected": "menuItemSelected",
+                                                  }
+                                                }
+                                                value="Accepted"
+                                              >
+                                                Accepted P.Os
+                                              </WithStyles(ForwardRef(MenuItem))>,
+                                              <WithStyles(ForwardRef(MenuItem))
+                                                classes={
+                                                  Object {
+                                                    "root": "menuItemRoot",
+                                                    "selected": "menuItemSelected",
+                                                  }
+                                                }
+                                                value="UnAccepted"
+                                              >
+                                                Unaccepted P.Os
+                                              </WithStyles(ForwardRef(MenuItem))>,
+                                              <WithStyles(ForwardRef(MenuItem))
+                                                classes={
+                                                  Object {
+                                                    "root": "menuItemRoot",
+                                                    "selected": "menuItemSelected",
+                                                  }
+                                                }
+                                                value="UnIssued"
+                                              >
+                                                Unissued P.Os
+                                              </WithStyles(ForwardRef(MenuItem))>,
+                                              <WithStyles(ForwardRef(MenuItem))
+                                                classes={
+                                                  Object {
+                                                    "root": "menuItemRoot",
+                                                    "selected": "menuItemSelected",
+                                                  }
+                                                }
+                                                value="PendingChanges"
+                                              >
+                                                P.Os Pending Changes
+                                              </WithStyles(ForwardRef(MenuItem))>,
+                                              <WithStyles(ForwardRef(MenuItem))
+                                                classes={
+                                                  Object {
+                                                    "root": "menuItemRoot",
+                                                    "selected": "menuItemSelected",
+                                                  }
+                                                }
+                                                value="PastDueEvents"
+                                              >
+                                                Past Due Events
+                                              </WithStyles(ForwardRef(MenuItem))>,
+                                            ],
+                                          ],
+                                          "classes": Object {
+                                            "disabled": "Mui-disabled",
+                                            "filled": "MuiSelect-filled",
+                                            "icon": "MuiSelect-icon searchSelectIcon",
+                                            "iconFilled": "MuiSelect-iconFilled",
+                                            "iconOpen": "MuiSelect-iconOpen",
+                                            "iconOutlined": "MuiSelect-iconOutlined",
+                                            "outlined": "MuiSelect-outlined",
+                                            "root": "MuiSelect-root searchSelectRoot",
+                                            "select": "MuiSelect-select searchSelect",
+                                            "selectMenu": "MuiSelect-selectMenu",
+                                          },
+                                          "displayEmpty": false,
+                                          "labelId": "search-select-filled-label",
+                                          "multiple": false,
+                                          "onClose": undefined,
+                                          "onOpen": undefined,
+                                          "open": undefined,
+                                          "renderValue": undefined,
+                                          "type": undefined,
+                                          "variant": "standard",
+                                        }
+                                      }
+                                      multiline={false}
+                                      onChange={[Function]}
+                                      type="text"
+                                      value="0"
+                                    >
+                                      <ForwardRef(InputBase)
+                                        className="selectFieldContainer"
+                                        classes={
+                                          Object {
+                                            "adornedEnd": "MuiInputBase-adornedEnd",
+                                            "adornedStart": "MuiInputBase-adornedStart",
+                                            "colorSecondary": "MuiInputBase-colorSecondary MuiInput-colorSecondary",
+                                            "disabled": "Mui-disabled Mui-disabled",
+                                            "error": "Mui-error Mui-error",
+                                            "focused": "Mui-focused Mui-focused",
+                                            "formControl": "MuiInputBase-formControl MuiInput-formControl",
+                                            "fullWidth": "MuiInputBase-fullWidth MuiInput-fullWidth",
+                                            "input": "MuiInputBase-input MuiInput-input",
+                                            "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                                            "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                                            "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                                            "inputMarginDense": "MuiInputBase-inputMarginDense MuiInput-inputMarginDense",
+                                            "inputMultiline": "MuiInputBase-inputMultiline MuiInput-inputMultiline",
+                                            "inputTypeSearch": "MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch",
+                                            "marginDense": "MuiInputBase-marginDense MuiInput-marginDense",
+                                            "multiline": "MuiInputBase-multiline MuiInput-multiline",
+                                            "root": "MuiInputBase-root MuiInput-root MuiInput-underline",
+                                          }
+                                        }
+                                        fullWidth={false}
+                                        inputComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "propTypes": Object {
+                                              "IconComponent": [Function],
+                                              "MenuProps": [Function],
+                                              "SelectDisplayProps": [Function],
+                                              "autoFocus": [Function],
+                                              "autoWidth": [Function],
+                                              "children": [Function],
+                                              "className": [Function],
+                                              "classes": [Function],
+                                              "defaultValue": [Function],
+                                              "disabled": [Function],
+                                              "displayEmpty": [Function],
+                                              "inputRef": [Function],
+                                              "labelId": [Function],
+                                              "multiple": [Function],
+                                              "name": [Function],
+                                              "onBlur": [Function],
+                                              "onChange": [Function],
+                                              "onClose": [Function],
+                                              "onFocus": [Function],
+                                              "onOpen": [Function],
+                                              "open": [Function],
+                                              "readOnly": [Function],
+                                              "renderValue": [Function],
+                                              "required": [Function],
+                                              "tabIndex": [Function],
+                                              "type": [Function],
+                                              "value": [Function],
+                                              "variant": [Function],
+                                            },
+                                            "render": [Function],
+                                          }
+                                        }
+                                        inputProps={
+                                          Object {
+                                            "IconComponent": Object {
+                                              "$$typeof": Symbol(react.memo),
+                                              "compare": null,
+                                              "displayName": "ArrowDropDownIcon",
+                                              "muiName": "SvgIcon",
+                                              "type": Object {
+                                                "$$typeof": Symbol(react.forward_ref),
+                                                "render": [Function],
+                                              },
+                                            },
+                                            "MenuProps": Object {
+                                              "anchorOrigin": Object {
+                                                "horizontal": "left",
+                                                "vertical": "bottom",
+                                              },
+                                              "classes": Object {
+                                                "list": "menuPropsList",
+                                                "paper": "menuPropsPaper",
+                                              },
+                                              "getContentAnchorEl": null,
+                                              "transformOrigin": Object {
+                                                "horizontal": "left",
+                                                "vertical": "top",
+                                              },
+                                            },
+                                            "SelectDisplayProps": Object {
+                                              "id": "search-select-filled",
+                                            },
+                                            "autoWidth": false,
+                                            "children": Array [
+                                              <WithStyles(ForwardRef(MenuItem))
+                                                classes={
+                                                  Object {
+                                                    "root": "menuItemRoot",
+                                                    "selected": "menuItemSelected",
+                                                  }
+                                                }
+                                                disabled={true}
+                                                value="0"
+                                              >
+                                                <p
+                                                  className="menuItemDisabled"
+                                                >
+                                                  P.O Category
+                                                </p>
+                                              </WithStyles(ForwardRef(MenuItem))>,
+                                              false,
+                                              Array [
+                                                <WithStyles(ForwardRef(MenuItem))
+                                                  classes={
+                                                    Object {
+                                                      "root": "menuItemRoot",
+                                                      "selected": "menuItemSelected",
+                                                    }
+                                                  }
+                                                  value="ALL"
+                                                >
+                                                  All P.Os
+                                                </WithStyles(ForwardRef(MenuItem))>,
+                                                <WithStyles(ForwardRef(MenuItem))
+                                                  classes={
+                                                    Object {
+                                                      "root": "menuItemRoot",
+                                                      "selected": "menuItemSelected",
+                                                    }
+                                                  }
+                                                  value="Accepted"
+                                                >
+                                                  Accepted P.Os
+                                                </WithStyles(ForwardRef(MenuItem))>,
+                                                <WithStyles(ForwardRef(MenuItem))
+                                                  classes={
+                                                    Object {
+                                                      "root": "menuItemRoot",
+                                                      "selected": "menuItemSelected",
+                                                    }
+                                                  }
+                                                  value="UnAccepted"
+                                                >
+                                                  Unaccepted P.Os
+                                                </WithStyles(ForwardRef(MenuItem))>,
+                                                <WithStyles(ForwardRef(MenuItem))
+                                                  classes={
+                                                    Object {
+                                                      "root": "menuItemRoot",
+                                                      "selected": "menuItemSelected",
+                                                    }
+                                                  }
+                                                  value="UnIssued"
+                                                >
+                                                  Unissued P.Os
+                                                </WithStyles(ForwardRef(MenuItem))>,
+                                                <WithStyles(ForwardRef(MenuItem))
+                                                  classes={
+                                                    Object {
+                                                      "root": "menuItemRoot",
+                                                      "selected": "menuItemSelected",
+                                                    }
+                                                  }
+                                                  value="PendingChanges"
+                                                >
+                                                  P.Os Pending Changes
+                                                </WithStyles(ForwardRef(MenuItem))>,
+                                                <WithStyles(ForwardRef(MenuItem))
+                                                  classes={
+                                                    Object {
+                                                      "root": "menuItemRoot",
+                                                      "selected": "menuItemSelected",
+                                                    }
+                                                  }
+                                                  value="PastDueEvents"
+                                                >
+                                                  Past Due Events
+                                                </WithStyles(ForwardRef(MenuItem))>,
+                                              ],
+                                            ],
+                                            "classes": Object {
+                                              "disabled": "Mui-disabled",
+                                              "filled": "MuiSelect-filled",
+                                              "icon": "MuiSelect-icon searchSelectIcon",
+                                              "iconFilled": "MuiSelect-iconFilled",
+                                              "iconOpen": "MuiSelect-iconOpen",
+                                              "iconOutlined": "MuiSelect-iconOutlined",
+                                              "outlined": "MuiSelect-outlined",
+                                              "root": "MuiSelect-root searchSelectRoot",
+                                              "select": "MuiSelect-select searchSelect",
+                                              "selectMenu": "MuiSelect-selectMenu",
+                                            },
+                                            "displayEmpty": false,
+                                            "labelId": "search-select-filled-label",
+                                            "multiple": false,
+                                            "onClose": undefined,
+                                            "onOpen": undefined,
+                                            "open": undefined,
+                                            "renderValue": undefined,
+                                            "type": undefined,
+                                            "variant": "standard",
+                                          }
+                                        }
+                                        multiline={false}
+                                        onChange={[Function]}
+                                        type="text"
+                                        value="0"
+                                      >
+                                        <div
+                                          className="MuiInputBase-root MuiInput-root MuiInput-underline selectFieldContainer MuiInputBase-formControl MuiInput-formControl"
+                                          onClick={[Function]}
+                                        >
+                                          <ForwardRef(SelectInput)
+                                            IconComponent={
+                                              Object {
+                                                "$$typeof": Symbol(react.memo),
+                                                "compare": null,
+                                                "displayName": "ArrowDropDownIcon",
+                                                "muiName": "SvgIcon",
+                                                "type": Object {
+                                                  "$$typeof": Symbol(react.forward_ref),
+                                                  "render": [Function],
+                                                },
+                                              }
+                                            }
+                                            MenuProps={
+                                              Object {
+                                                "anchorOrigin": Object {
+                                                  "horizontal": "left",
+                                                  "vertical": "bottom",
+                                                },
+                                                "classes": Object {
+                                                  "list": "menuPropsList",
+                                                  "paper": "menuPropsPaper",
+                                                },
+                                                "getContentAnchorEl": null,
+                                                "transformOrigin": Object {
+                                                  "horizontal": "left",
+                                                  "vertical": "top",
+                                                },
+                                              }
+                                            }
+                                            SelectDisplayProps={
+                                              Object {
+                                                "id": "search-select-filled",
+                                              }
+                                            }
+                                            aria-invalid={false}
+                                            autoWidth={false}
+                                            className="MuiInputBase-input MuiInput-input"
+                                            classes={
+                                              Object {
+                                                "disabled": "Mui-disabled",
+                                                "filled": "MuiSelect-filled",
+                                                "icon": "MuiSelect-icon searchSelectIcon",
+                                                "iconFilled": "MuiSelect-iconFilled",
+                                                "iconOpen": "MuiSelect-iconOpen",
+                                                "iconOutlined": "MuiSelect-iconOutlined",
+                                                "outlined": "MuiSelect-outlined",
+                                                "root": "MuiSelect-root searchSelectRoot",
+                                                "select": "MuiSelect-select searchSelect",
+                                                "selectMenu": "MuiSelect-selectMenu",
+                                              }
+                                            }
+                                            disabled={false}
+                                            displayEmpty={false}
+                                            inputRef={[Function]}
+                                            labelId="search-select-filled-label"
+                                            multiple={false}
+                                            onAnimationStart={[Function]}
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onFocus={[Function]}
+                                            required={false}
+                                            value="0"
+                                            variant="standard"
+                                          >
+                                            <div
+                                              aria-haspopup="listbox"
+                                              aria-labelledby="search-select-filled-label search-select-filled"
+                                              className="MuiSelect-root searchSelectRoot MuiSelect-select searchSelect MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                                              id="search-select-filled"
+                                              onBlur={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyDown={[Function]}
+                                              onMouseDown={[Function]}
+                                              role="button"
+                                              tabIndex={0}
+                                            >
+                                              <p
+                                                className="menuItemDisabled"
+                                              >
+                                                P.O Category
+                                              </p>
+                                            </div>
+                                            <input
+                                              onAnimationStart={[Function]}
+                                              type="hidden"
+                                              value="0"
+                                            />
+                                            <ForwardRef
+                                              className="MuiSelect-icon searchSelectIcon"
+                                            >
+                                              <WithStyles(ForwardRef(SvgIcon))
+                                                className="MuiSelect-icon searchSelectIcon"
+                                              >
+                                                <ForwardRef(SvgIcon)
+                                                  className="MuiSelect-icon searchSelectIcon"
+                                                  classes={
+                                                    Object {
+                                                      "colorAction": "MuiSvgIcon-colorAction",
+                                                      "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                                      "colorError": "MuiSvgIcon-colorError",
+                                                      "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                                      "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                                      "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                                      "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                                      "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                                      "root": "MuiSvgIcon-root",
+                                                    }
+                                                  }
+                                                >
+                                                  <svg
+                                                    aria-hidden="true"
+                                                    className="MuiSvgIcon-root MuiSelect-icon searchSelectIcon"
+                                                    focusable="false"
+                                                    viewBox="0 0 24 24"
+                                                  >
+                                                    <path
+                                                      d="M7 10l5 5 5-5z"
+                                                    />
+                                                  </svg>
+                                                </ForwardRef(SvgIcon)>
+                                              </WithStyles(ForwardRef(SvgIcon))>
+                                            </ForwardRef>
+                                            <WithStyles(ForwardRef(Menu))
+                                              MenuListProps={
+                                                Object {
+                                                  "aria-labelledby": "search-select-filled-label",
+                                                  "disableListWrap": true,
+                                                  "role": "listbox",
+                                                }
+                                              }
+                                              PaperProps={
+                                                Object {
+                                                  "style": Object {
+                                                    "minWidth": undefined,
+                                                  },
+                                                }
+                                              }
+                                              anchorEl={
+                                                <div
+                                                  aria-haspopup="listbox"
+                                                  aria-labelledby="search-select-filled-label search-select-filled"
+                                                  class="MuiSelect-root searchSelectRoot MuiSelect-select searchSelect MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                                                  id="search-select-filled"
+                                                  role="button"
+                                                  tabindex="0"
+                                                >
+                                                  <p
+                                                    class="menuItemDisabled"
+                                                  >
+                                                    P.O Category
+                                                  </p>
+                                                </div>
+                                              }
+                                              anchorOrigin={
+                                                Object {
+                                                  "horizontal": "left",
+                                                  "vertical": "bottom",
+                                                }
+                                              }
+                                              classes={
+                                                Object {
+                                                  "list": "menuPropsList",
+                                                  "paper": "menuPropsPaper",
+                                                }
+                                              }
+                                              getContentAnchorEl={null}
+                                              id="menu-"
+                                              onClose={[Function]}
+                                              open={false}
+                                              transformOrigin={
+                                                Object {
+                                                  "horizontal": "left",
+                                                  "vertical": "top",
+                                                }
+                                              }
+                                            >
+                                              <ForwardRef(Menu)
+                                                MenuListProps={
+                                                  Object {
+                                                    "aria-labelledby": "search-select-filled-label",
+                                                    "disableListWrap": true,
+                                                    "role": "listbox",
+                                                  }
+                                                }
+                                                PaperProps={
+                                                  Object {
+                                                    "style": Object {
+                                                      "minWidth": undefined,
+                                                    },
+                                                  }
+                                                }
+                                                anchorEl={
+                                                  <div
+                                                    aria-haspopup="listbox"
+                                                    aria-labelledby="search-select-filled-label search-select-filled"
+                                                    class="MuiSelect-root searchSelectRoot MuiSelect-select searchSelect MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                                                    id="search-select-filled"
+                                                    role="button"
+                                                    tabindex="0"
+                                                  >
+                                                    <p
+                                                      class="menuItemDisabled"
+                                                    >
+                                                      P.O Category
+                                                    </p>
+                                                  </div>
+                                                }
+                                                anchorOrigin={
+                                                  Object {
+                                                    "horizontal": "left",
+                                                    "vertical": "bottom",
+                                                  }
+                                                }
+                                                classes={
+                                                  Object {
+                                                    "list": "MuiMenu-list menuPropsList",
+                                                    "paper": "MuiMenu-paper menuPropsPaper",
+                                                  }
+                                                }
+                                                getContentAnchorEl={null}
+                                                id="menu-"
+                                                onClose={[Function]}
+                                                open={false}
+                                                transformOrigin={
+                                                  Object {
+                                                    "horizontal": "left",
+                                                    "vertical": "top",
+                                                  }
+                                                }
+                                              >
+                                                <WithStyles(ForwardRef(Popover))
+                                                  PaperProps={
+                                                    Object {
+                                                      "classes": Object {
+                                                        "root": "MuiMenu-paper menuPropsPaper",
+                                                      },
+                                                      "style": Object {
+                                                        "minWidth": undefined,
+                                                      },
+                                                    }
+                                                  }
+                                                  anchorEl={
+                                                    <div
+                                                      aria-haspopup="listbox"
+                                                      aria-labelledby="search-select-filled-label search-select-filled"
+                                                      class="MuiSelect-root searchSelectRoot MuiSelect-select searchSelect MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                                                      id="search-select-filled"
+                                                      role="button"
+                                                      tabindex="0"
+                                                    >
+                                                      <p
+                                                        class="menuItemDisabled"
+                                                      >
+                                                        P.O Category
+                                                      </p>
+                                                    </div>
+                                                  }
+                                                  anchorOrigin={
+                                                    Object {
+                                                      "horizontal": "left",
+                                                      "vertical": "bottom",
+                                                    }
+                                                  }
+                                                  getContentAnchorEl={null}
+                                                  id="menu-"
+                                                  onClose={[Function]}
+                                                  onEntering={[Function]}
+                                                  open={false}
+                                                  transformOrigin={
+                                                    Object {
+                                                      "horizontal": "left",
+                                                      "vertical": "top",
+                                                    }
+                                                  }
+                                                  transitionDuration="auto"
+                                                >
+                                                  <ForwardRef(Popover)
+                                                    PaperProps={
+                                                      Object {
+                                                        "classes": Object {
+                                                          "root": "MuiMenu-paper menuPropsPaper",
+                                                        },
+                                                        "style": Object {
+                                                          "minWidth": undefined,
+                                                        },
+                                                      }
+                                                    }
+                                                    anchorEl={
+                                                      <div
+                                                        aria-haspopup="listbox"
+                                                        aria-labelledby="search-select-filled-label search-select-filled"
+                                                        class="MuiSelect-root searchSelectRoot MuiSelect-select searchSelect MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                                                        id="search-select-filled"
+                                                        role="button"
+                                                        tabindex="0"
+                                                      >
+                                                        <p
+                                                          class="menuItemDisabled"
+                                                        >
+                                                          P.O Category
+                                                        </p>
+                                                      </div>
+                                                    }
+                                                    anchorOrigin={
+                                                      Object {
+                                                        "horizontal": "left",
+                                                        "vertical": "bottom",
+                                                      }
+                                                    }
+                                                    classes={
+                                                      Object {
+                                                        "paper": "MuiPopover-paper",
+                                                        "root": "MuiPopover-root",
+                                                      }
+                                                    }
+                                                    getContentAnchorEl={null}
+                                                    id="menu-"
+                                                    onClose={[Function]}
+                                                    onEntering={[Function]}
+                                                    open={false}
+                                                    transformOrigin={
+                                                      Object {
+                                                        "horizontal": "left",
+                                                        "vertical": "top",
+                                                      }
+                                                    }
+                                                    transitionDuration="auto"
+                                                  >
+                                                    <ForwardRef(Modal)
+                                                      BackdropProps={
+                                                        Object {
+                                                          "invisible": true,
+                                                        }
+                                                      }
+                                                      className="MuiPopover-root"
+                                                      container={<body />}
+                                                      id="menu-"
+                                                      onClose={[Function]}
+                                                      open={false}
+                                                    />
+                                                  </ForwardRef(Popover)>
+                                                </WithStyles(ForwardRef(Popover))>
+                                              </ForwardRef(Menu)>
+                                            </WithStyles(ForwardRef(Menu))>
+                                          </ForwardRef(SelectInput)>
+                                        </div>
+                                      </ForwardRef(InputBase)>
+                                    </WithStyles(ForwardRef(InputBase))>
+                                  </ForwardRef(Input)>
+                                </WithStyles(ForwardRef(Input))>
+                              </ForwardRef(Select)>
+                            </WithStyles(ForwardRef(Select))>
+                          </div>
+                        </ForwardRef(FormControl)>
+                      </WithStyles(ForwardRef(FormControl))>
+                    </div>
+                  </PoSearchMenuItems>
+                  <InputBaseComp
+                    clearText={[Function]}
+                    closeDrawer={[MockFunction]}
+                    inputError={false}
+                    inputPlaceholder="Enter Vendor Name, or 10 digit P.O number"
+                    inputText=""
+                    onChangeInput={[Function]}
+                    selectFieldData={
+                      Array [
+                        Object {
+                          "key": "ALL",
+                          "value": "All P.Os",
+                        },
+                        Object {
+                          "key": "Accepted",
+                          "value": "Accepted P.Os",
+                        },
+                        Object {
+                          "key": "UnAccepted",
+                          "value": "Unaccepted P.Os",
+                        },
+                        Object {
+                          "key": "UnIssued",
+                          "value": "Unissued P.Os",
+                        },
+                        Object {
+                          "key": "PendingChanges",
+                          "value": "P.Os Pending Changes",
+                        },
+                        Object {
+                          "key": "PastDueEvents",
+                          "value": "Past Due Events",
+                        },
+                      ]
+                    }
+                    selectPlaceHolder="P.O Category"
+                    submitSearch={[MockFunction]}
+                  >
+                    <div
+                      className="inputBaseContainer"
+                    >
+                      <WithStyles(ForwardRef(InputBase))
+                        className="searchInputBase"
+                        classes={
+                          Object {
+                            "error": "",
+                            "input": "searchInputBaseInput",
+                          }
+                        }
+                        error={false}
+                        inputProps={
+                          Object {
+                            "aria-label": "VendorName/PONumber",
+                          }
+                        }
+                        onChange={[Function]}
+                        placeholder="Enter Vendor Name, or 10 digit P.O number"
+                        value=""
+                      >
+                        <ForwardRef(InputBase)
+                          className="searchInputBase"
+                          classes={
+                            Object {
+                              "adornedEnd": "MuiInputBase-adornedEnd",
+                              "adornedStart": "MuiInputBase-adornedStart",
+                              "colorSecondary": "MuiInputBase-colorSecondary",
+                              "disabled": "Mui-disabled",
+                              "error": "Mui-error",
+                              "focused": "Mui-focused",
+                              "formControl": "MuiInputBase-formControl",
+                              "fullWidth": "MuiInputBase-fullWidth",
+                              "input": "MuiInputBase-input searchInputBaseInput",
+                              "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                              "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                              "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                              "inputMarginDense": "MuiInputBase-inputMarginDense",
+                              "inputMultiline": "MuiInputBase-inputMultiline",
+                              "inputTypeSearch": "MuiInputBase-inputTypeSearch",
+                              "marginDense": "MuiInputBase-marginDense",
+                              "multiline": "MuiInputBase-multiline",
+                              "root": "MuiInputBase-root",
+                            }
+                          }
+                          error={false}
+                          inputProps={
+                            Object {
+                              "aria-label": "VendorName/PONumber",
+                            }
+                          }
+                          onChange={[Function]}
+                          placeholder="Enter Vendor Name, or 10 digit P.O number"
+                          value=""
+                        >
+                          <div
+                            className="MuiInputBase-root searchInputBase"
+                            onClick={[Function]}
+                          >
+                            <input
+                              aria-invalid={false}
+                              aria-label="VendorName/PONumber"
+                              className="MuiInputBase-input searchInputBaseInput"
+                              onAnimationStart={[Function]}
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              placeholder="Enter Vendor Name, or 10 digit P.O number"
+                              type="text"
+                              value=""
+                            />
+                          </div>
+                        </ForwardRef(InputBase)>
+                      </WithStyles(ForwardRef(InputBase))>
+                      <button
+                        className="clearText"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Clear
+                      </button>
+                    </div>
+                  </InputBaseComp>
+                  <WithStyles(ForwardRef(IconButton))
+                    aria-label="search"
+                    className="searchIconButton"
+                    type="submit"
+                  >
+                    <ForwardRef(IconButton)
+                      aria-label="search"
+                      className="searchIconButton"
+                      classes={
+                        Object {
+                          "colorInherit": "MuiIconButton-colorInherit",
+                          "colorPrimary": "MuiIconButton-colorPrimary",
+                          "colorSecondary": "MuiIconButton-colorSecondary",
+                          "disabled": "Mui-disabled",
+                          "edgeEnd": "MuiIconButton-edgeEnd",
+                          "edgeStart": "MuiIconButton-edgeStart",
+                          "label": "MuiIconButton-label",
+                          "root": "MuiIconButton-root",
+                          "sizeSmall": "MuiIconButton-sizeSmall",
+                        }
+                      }
+                      type="submit"
+                    >
+                      <WithStyles(ForwardRef(ButtonBase))
+                        aria-label="search"
+                        centerRipple={true}
+                        className="MuiIconButton-root searchIconButton"
+                        disabled={false}
+                        focusRipple={true}
+                        type="submit"
+                      >
+                        <ForwardRef(ButtonBase)
+                          aria-label="search"
+                          centerRipple={true}
+                          className="MuiIconButton-root searchIconButton"
+                          classes={
+                            Object {
+                              "disabled": "Mui-disabled",
+                              "focusVisible": "Mui-focusVisible",
+                              "root": "MuiButtonBase-root",
+                            }
+                          }
+                          disabled={false}
+                          focusRipple={true}
+                          type="submit"
+                        >
+                          <button
+                            aria-label="search"
+                            className="MuiButtonBase-root MuiIconButton-root searchIconButton"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onDragLeave={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            tabIndex={0}
+                            type="submit"
+                          >
+                            <span
+                              className="MuiIconButton-label"
+                            >
+                              <ForwardRef>
+                                <WithStyles(ForwardRef(SvgIcon))>
+                                  <ForwardRef(SvgIcon)
+                                    classes={
+                                      Object {
+                                        "colorAction": "MuiSvgIcon-colorAction",
+                                        "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                        "colorError": "MuiSvgIcon-colorError",
+                                        "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                        "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                        "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                        "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                        "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                        "root": "MuiSvgIcon-root",
+                                      }
+                                    }
+                                  >
+                                    <svg
+                                      aria-hidden="true"
+                                      className="MuiSvgIcon-root"
+                                      focusable="false"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                                      />
+                                    </svg>
+                                  </ForwardRef(SvgIcon)>
+                                </WithStyles(ForwardRef(SvgIcon))>
+                              </ForwardRef>
+                            </span>
+                            <NoSsr>
+                              <WithStyles(memo)
+                                center={true}
+                              >
+                                <ForwardRef(TouchRipple)
+                                  center={true}
+                                  classes={
+                                    Object {
+                                      "child": "MuiTouchRipple-child",
+                                      "childLeaving": "MuiTouchRipple-childLeaving",
+                                      "childPulsate": "MuiTouchRipple-childPulsate",
+                                      "ripple": "MuiTouchRipple-ripple",
+                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                      "root": "MuiTouchRipple-root",
+                                    }
+                                  }
+                                >
+                                  <span
+                                    className="MuiTouchRipple-root"
+                                  >
+                                    <TransitionGroup
+                                      childFactory={[Function]}
+                                      component={null}
+                                      exit={true}
+                                    />
+                                  </span>
+                                </ForwardRef(TouchRipple)>
+                              </WithStyles(memo)>
+                            </NoSsr>
+                          </button>
+                        </ForwardRef(ButtonBase)>
+                      </WithStyles(ForwardRef(ButtonBase))>
+                    </ForwardRef(IconButton)>
+                  </WithStyles(ForwardRef(IconButton))>
+                </form>
+              </ForwardRef(Paper)>
+            </WithStyles(ForwardRef(Paper))>
+            <p
+              className="errorDisp"
+            />
+          </div>
+        </POSearchInput>
+      </Router>
+    </StaticRouter>
+  </ThemeProvider>
+</Provider>
+`;

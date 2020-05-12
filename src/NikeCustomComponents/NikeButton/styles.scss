@@ -1,0 +1,27 @@
+@import '../../constants/variables.scss';
+
+.customBlackButton {
+    background-color: $primaryblack; 
+    color: $white;
+    font-size: 13px;
+    padding: 8px 12px;
+    line-height: 15px;
+    letter-spacing: 0.65px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+.customWhiteButton {
+    background-color: $white; 
+    color: $primaryblack;
+    font-size: 13px;
+    padding: 8px 12px;
+    line-height: 15px;
+    letter-spacing: 0.65px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+

@@ -1,0 +1,115 @@
+@import '../../constants/variables.scss';
+
+.hambergerCollaspedContainer{
+    background: $primaryblack 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 4px #00000029;
+    opacity: 1;
+    border-top: 1px solid $grey3;
+    height: 100%;
+
+    .hambergerCollapsedMenu {
+        padding: 0;
+
+        .hambergerCollapsedMenuItems {
+            justify-content: center;
+            padding: 22px 0;
+
+            &:first-child {
+                margin-top: 12px;
+            }
+
+            &:hover .hambergerCollapsedMenuIcon {
+                transform: scale(1.5);
+            }
+
+            .hambergerCollapsedMenuIcon {
+                justify-content: center;
+                min-width: 18px;
+            }
+        }
+
+        .hambergerCollapsedMenuItemsSelected {
+            background-color: $primaryblack;
+
+            &:hover .hambergerCollapsedMenuIcon {
+                transform: scale(1.5);
+            }
+        }
+    }
+}
+
+.hambergerExpandedContainer {
+    .hambergerExpendedMenu {
+        color: $grey2;
+
+        .listSubheader {
+            height: 61px;
+            padding: 22px 30px 22px 20%;
+            text-align: center;
+            line-height: 1;
+        }
+        
+        .listSubheaderAvatar {
+            height: 19px;
+            width: 49.81px;
+            border-radius: 0;
+            display: inline-flex;
+        }
+
+        .hambergerExpandedMenuItems {
+            padding: 22px 30px 22px 20%;
+            line-height: 1;
+
+            &:hover {
+                background-color: $grey1;
+                color: $white;
+            }
+
+            .hambergerExpandedMenuIcon {
+                justify-content: flex-start;
+                min-width: 18px;
+                margin-right: 17px;
+            }
+
+            .hambergerExpandedMenuItemText {
+                margin: 0;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .menuItemTextPrimary {
+                line-height: 1;
+                font-size: 14px;
+            }
+        }
+
+        .hambergerExpandedMenuItemsSelected {
+            color: $white;
+
+            &:hover {
+                background-color: $grey1;
+                color: $white;
+            }
+        }
+
+        .verticalDivider {
+            margin-bottom: 12px;
+            background-color: $grey1;
+            box-shadow: none;
+        }
+    }
+}
+
+.verticalDivider {
+    background-color: $grey3;
+}
+
+.drawerContainer {
+    .drawerPaperClass {
+        background: $primaryblack 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 4px #00000029;
+        opacity: 1;
+        padding: 0;
+    }
+}

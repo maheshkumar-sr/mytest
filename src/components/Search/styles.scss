@@ -1,0 +1,71 @@
+@import '../../constants/variables.scss';
+
+.mt_25 {
+    margin-top: 25px;
+} 
+.pb_30 {
+    padding-bottom: 30px;
+}
+.noResults {
+    display: flex;
+    margin-top: 15px;
+    align-items: flex-start;
+
+    .noResultsText {
+        font-size: 13px;
+        line-height: 20px;
+        margin-left: 10px;
+
+        .noResultsSorryMsg {
+            // display: flex;
+            // align-self: baseline;
+
+            .noResultsOops {
+                font-size: 18px;
+                line-height: 15px;
+            }
+        }
+    }
+}
+
+.maxCapacityError {
+    background: $lightBlue 0% 0% no-repeat padding-box;
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    border-left: solid 2px $blue;
+    margin-bottom: 25px;
+
+    .pleaseNoteTxt {
+        font-size: 13px;
+        line-height: 15px;
+        margin-left: 16px;
+
+        .pleaseNote {
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+
+    .maxCapacityErrorDisp{
+        font-size: 13px;
+    }
+}
+
+.filterErrorOuterContainer {
+    display: flex;
+    padding: 0 0 25px;
+    align-items: flex-start;
+
+   .filterResultErrorMsg {
+        font-size: 13px;
+        line-height: 20px;
+        margin-left: 20px;
+
+        .filterResultOops {
+            font-size: 18px;
+            line-height: 20px;
+        }
+   }
+}

@@ -1,0 +1,23 @@
+@import '../../constants/variables.scss';
+
+.datePickerContainer {
+    .keyboardDatePickerContainer {
+        margin: 0;
+
+        input {
+            font-size: 13px;
+        }
+    }
+
+    .datePickerAdornmentRoot {
+        button {
+            padding: 0;
+        }
+    }
+
+    .datePickerInputBaseRoot {
+        &::before {
+            border-bottom: 1px solid $grey2;
+        }
+    }
+}

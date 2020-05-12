@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomBreadcrumbs />  render the component correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <ThemeProvider>
+    <StaticRouter
+      context={Object {}}
+    >
+      <Router
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "createHref": [Function],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        staticContext={Object {}}
+      >
+        <withRouter(CustomBreadcrumbs)
+          breadCrumbList={
+            Map {
+              "/" => Array [
+                Object {
+                  "label": "Home",
+                  "linkTo": "/",
+                },
+              ],
+              "/poProcessing" => Array [
+                Object {
+                  "label": "Home",
+                  "linkTo": "/",
+                },
+                Object {
+                  "label": "P.O Processing",
+                  "linkTo": "/poProcessing",
+                },
+              ],
+              "/search" => Array [
+                Object {
+                  "label": "Home",
+                  "linkTo": "/",
+                },
+                Object {
+                  "label": "P.O Processing",
+                  "linkTo": "/poProcessing",
+                },
+                Object {
+                  "label": "P.O Search",
+                  "linkTo": "/search",
+                },
+              ],
+            }
+          }
+          closeDrawer={[MockFunction]}
+          filterContainer="kjkk"
+          isSelectNative={true}
+          pathName="/"
+          selectError="fkdjdf"
+        >
+          <CustomBreadcrumbs
+            breadCrumbList={
+              Map {
+                "/" => Array [
+                  Object {
+                    "label": "Home",
+                    "linkTo": "/",
+                  },
+                ],
+                "/poProcessing" => Array [
+                  Object {
+                    "label": "Home",
+                    "linkTo": "/",
+                  },
+                  Object {
+                    "label": "P.O Processing",
+                    "linkTo": "/poProcessing",
+                  },
+                ],
+                "/search" => Array [
+                  Object {
+                    "label": "Home",
+                    "linkTo": "/",
+                  },
+                  Object {
+                    "label": "P.O Processing",
+                    "linkTo": "/poProcessing",
+                  },
+                  Object {
+                    "label": "P.O Search",
+                    "linkTo": "/search",
+                  },
+                ],
+              }
+            }
+            closeDrawer={[MockFunction]}
+            filterContainer="kjkk"
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "createHref": [Function],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            isSelectNative={true}
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+            pathName="/"
+            selectError="fkdjdf"
+            staticContext={Object {}}
+          >
+            <div
+              className="breadCrumbContainer"
+            >
+              <WithStyles(ForwardRef(Breadcrumbs))
+                className="breadCrumb"
+                separator={
+                  <Memo(NavigateNextIcon)
+                    fontSize="small"
+                  />
+                }
+              >
+                <ForwardRef(Breadcrumbs)
+                  className="breadCrumb"
+                  classes={
+                    Object {
+                      "li": "MuiBreadcrumbs-li",
+                      "ol": "MuiBreadcrumbs-ol",
+                      "root": "MuiBreadcrumbs-root",
+                      "separator": "MuiBreadcrumbs-separator",
+                    }
+                  }
+                  separator={
+                    <Memo(NavigateNextIcon)
+                      fontSize="small"
+                    />
+                  }
+                >
+                  <WithStyles(ForwardRef(Typography))
+                    className="MuiBreadcrumbs-root breadCrumb"
+                    color="textSecondary"
+                    component="nav"
+                  >
+                    <ForwardRef(Typography)
+                      className="MuiBreadcrumbs-root breadCrumb"
+                      classes={
+                        Object {
+                          "alignCenter": "MuiTypography-alignCenter",
+                          "alignJustify": "MuiTypography-alignJustify",
+                          "alignLeft": "MuiTypography-alignLeft",
+                          "alignRight": "MuiTypography-alignRight",
+                          "body1": "MuiTypography-body1",
+                          "body2": "MuiTypography-body2",
+                          "button": "MuiTypography-button",
+                          "caption": "MuiTypography-caption",
+                          "colorError": "MuiTypography-colorError",
+                          "colorInherit": "MuiTypography-colorInherit",
+                          "colorPrimary": "MuiTypography-colorPrimary",
+                          "colorSecondary": "MuiTypography-colorSecondary",
+                          "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                          "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                          "displayBlock": "MuiTypography-displayBlock",
+                          "displayInline": "MuiTypography-displayInline",
+                          "gutterBottom": "MuiTypography-gutterBottom",
+                          "h1": "MuiTypography-h1",
+                          "h2": "MuiTypography-h2",
+                          "h3": "MuiTypography-h3",
+                          "h4": "MuiTypography-h4",
+                          "h5": "MuiTypography-h5",
+                          "h6": "MuiTypography-h6",
+                          "noWrap": "MuiTypography-noWrap",
+                          "overline": "MuiTypography-overline",
+                          "paragraph": "MuiTypography-paragraph",
+                          "root": "MuiTypography-root",
+                          "srOnly": "MuiTypography-srOnly",
+                          "subtitle1": "MuiTypography-subtitle1",
+                          "subtitle2": "MuiTypography-subtitle2",
+                        }
+                      }
+                      color="textSecondary"
+                      component="nav"
+                    >
+                      <nav
+                        className="MuiTypography-root MuiBreadcrumbs-root breadCrumb MuiTypography-body1 MuiTypography-colorTextSecondary"
+                      >
+                        <ol
+                          className="MuiBreadcrumbs-ol"
+                        >
+                          <li
+                            className="MuiBreadcrumbs-li"
+                            key="child-0"
+                          >
+                            <Link
+                              className="breadCrumbsPath"
+                              key=".$Home"
+                              onClick={[Function]}
+                              to="/"
+                            >
+                              <LinkAnchor
+                                className="breadCrumbsPath"
+                                href="/"
+                                navigate={[Function]}
+                                onClick={[Function]}
+                              >
+                                <a
+                                  className="breadCrumbsPath"
+                                  href="/"
+                                  onClick={[Function]}
+                                >
+                                  Home
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </li>
+                        </ol>
+                      </nav>
+                    </ForwardRef(Typography)>
+                  </WithStyles(ForwardRef(Typography))>
+                </ForwardRef(Breadcrumbs)>
+              </WithStyles(ForwardRef(Breadcrumbs))>
+            </div>
+          </CustomBreadcrumbs>
+        </withRouter(CustomBreadcrumbs)>
+      </Router>
+    </StaticRouter>
+  </ThemeProvider>
+</Provider>
+`;

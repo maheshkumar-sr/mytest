@@ -1,0 +1,16 @@
+@import '../../../constants/variables.scss';
+
+.textFieldContainer {    
+    .textFieldRoot {        
+        input {
+            color:$primaryblack;
+            font-size: 13px;
+        }
+    }
+
+    .textFieldInputBaseRoot {
+        &::before {
+            border-bottom: 1px solid $grey2;
+        }
+    }
+}

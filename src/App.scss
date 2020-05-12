@@ -1,0 +1,37 @@
+@import './constants/globalStyles.scss';
+
+.appContainer {
+    background: #F8FAFB;
+    
+    .appContainerHeader {
+        height: 61px;
+        background: $white 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 4px #0000001A;
+        opacity: 1;
+        position: fixed;
+        left: 10px;
+        right: 10px;
+        z-index: 1;
+    }
+
+    .appContainerBody {
+        height: calc(100vh - 1px);
+
+        .appContainerBodyHamburger {
+            padding-left: 0;
+            height: calc(100vh - 62px);
+            position: fixed;
+            top: 61px;
+
+            .verticalDivider {
+                background-color: $grey3;
+            }
+        }
+
+        .appContainerMainBody {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            top: 61px;
+        }
+    }
+}

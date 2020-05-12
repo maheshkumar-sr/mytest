@@ -1,0 +1,17 @@
+@import '../../constants/variables.scss';
+
+.errorText{
+    font-size: 18px;
+    font-family: Helvetica Neue Regular;
+    color: $primaryblack;
+    position: relative;
+    top: 250px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 700;
+    .underProcess{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
